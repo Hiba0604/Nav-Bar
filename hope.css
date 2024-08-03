@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: rgb(34,34,34);
+    width:1270px;
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+align-items: center;
+position: relative;
+}
+ul li{
+    list-style-type: none;
+    color:white;
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+    width: 45px;
+    margin-left: 20px;
+}
+.heading{
+    font-size:25px;
+    padding-right: 300px;
+    top: 0;
+    bottom: 0;
+    color:white;
+}
+ul{
+    margin:left;
+    display: flex;
+    justify-content: space-around;
+    padding-top:3px;
+    gap:15px;
+}
+.input{
+    width: 300px;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid black;
+    padding-left:20px;
+
+}
+.search{
+    padding-right:20px;
+}
+.fa{
+    position: absolute;
+    top:12px;
+    right:60px;
+    bottom:0;
+}
+    
